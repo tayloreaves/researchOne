@@ -1,0 +1,124 @@
+body {
+	background-color: white;
+}
+
+#loginButCon {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#loginBut {
+	font-family: 'Raleway', sans-serif;
+	font-size: 90pt;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+	border: 10px solid #ffffff;
+	padding: 5px 10px;
+  border-image: -moz-linear-gradient(top left, #00fff2, #003dff);
+  border-image: -webkit-linear-gradient(right bottom, #00fff2, #003dff);
+  border-image: linear-gradient(to top left, #00fff2, #003dff);
+  border-image-slice: 1;
+}
+
+#loginBut:hover {
+	background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	color: #000000;
+}
+
+p, li, a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+.hidden {
+	display: none;
+}
+
+#back {
+ 	 font-family: 'Raleway', sans-serif;
+	 margin: 0;
+	 padding: 0;
+	 width: 5%;
+  	font-size: 10pt;
+  	text-decoration: none;
+  	color: #000000;
+  	background-color: #ffffff;
+  	border: 2px solid #ffffff;
+   border-image: -moz-linear-gradient(top left, #00fff2, #003dff);
+   border-image: -webkit-linear-gradient(right bottom, #00fff2, #003dff);
+   border-image: linear-gradient(top left, #00fff2, #003dff);
+  border-image-slice: 1;
+}
+
+#greeting {
+	margin-top: 20%;
+}
+
+#welcomeMsg {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30pt;
+	color:#000000;
+	display: block;
+	width: 70vw;
+	max-width: 400px;
+	display: block;
+	margin: 20vh auto 50px auto;
+}
+
+form input {
+	width: 300px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+#submit {
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	padding-bottom: 10px;
+	padding-top: 5px;
+  border-image: -moz-linear-gradient(top left, #00fff2, #003dff);
+	border-image: -webkit-linear-gradient(right bottom, #00fff2, #003dff);
+ 	border-image: linear-gradient(to top left, #00fff2, #003dff);
+	border-image-slice: 1;
+}
+
+.errorTxt {
+	text-align: center;
+}
+
+
+ #login {
+	font-family: 'Raleway', sans-serif;
+ 	font-size: 10pt;
+ 	text-decoration: none;
+ 	color: #000000;
+ 	background-color: #ffffff;
+ 	border: 2px solid #ffffff;
+  border-image: -moz-linear-gradient(top left, #00fff2, #003dff);
+  border-image: -webkit-linear-gradient(right bottom, #00fff2, #003dff);
+  border-image: linear-gradient(to top left, #00fff2, #003dff);
+ border-image-slice: 1;
+}
+
+#lastLogin {
+	position: fixed;
+	bottom: 0px;
+	right: 10px;
+}
